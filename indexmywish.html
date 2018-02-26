@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>biztonság||Web development</title>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Great+Vibes" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cardo" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Sacramento" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Permanent+Marker" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Amatic+SC" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poiret+One" type="text/css" >
+ <link href="bandw.css" type="text/css" rel="stylesheet"/>
+  <link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+
+
+$(document).ready(function(){
+
+$("h4.f01h4").click(function(){
+$(".subf01").slideToggle();
+});
+
+$("h4.f02h4").click(function(){
+$(".subf02").slideToggle();
+});
+
+$("h4.f03h4").click(function(){
+$("ul.subf03").slideToggle();
+});
+
+$("h4.f04h4").click(function(){
+$("ul.subf04").slideToggle();
+});
+});
+
+$(window).on(function(){
+if ($(window).width() > 68){
+$(".subf01,.subf02,.subf03,.subf04,.subf05").css("display")
+}
+}).resize();
+</script>
+<script>
+$(document).ready(function(){
+var f = $(window).width();
+if(f > 680) {
+$(".hamburgermenua").click(function(){
+$(".dropdownmenu").slideToggle(500);
+});
+}
+});
+</script>
+<script> 
+$(document).ready(function(){
+var w = $(window).width();
+if(w < 680) {
+$(".dropdownmenu").hide();
+$(".dropdownhamburger").click(function(){
+$(".dropdownmenu").animate({
+width: "show"
+});
+$("p.closex").click(function(){
+$(".dropdownmenu").animate({
+width: "hide"
+});
+});
+});
+}
+});
+</script> 
+
+<script>
+$(window).on(function(){
+if ($(window).width() > 640){
+$(document).ready(function(){
+$("h4:not(.f01h4)").click(function(){
+});
+});
+}
+});
+</script>
+
+<script>
+
+$(document).ready(function(){
+$("#ddmens ul li").hide();
+$("#ddmens h4 a i.fa-chevron-down").click(function(){
+$("#ddmens h4 a i.fa-chevron-down").hide();
+$("#ddmens ul li").slideDown();
+$("#ddmens h4 a i.fa-close").show();
+});
+$("#ddmens h4 a i.fa-close").click(function(){
+$("#ddmens h4 a i.fa-close").hide();
+$("#ddmens ul li").slideUp();
+$("#ddmens h4 a i.fa-chevron-down").show();
+});
+});
+
+$(document).ready(function(){
+$("#ddmomans ul li").hide();
+$("#ddmomans h4 a i.fa-chevron-down").click(function(){
+$("#ddmomans h4 a i.fa-chevron-down").hide();
+$("#ddmomans ul li").slideDown();
+$("#ddmomans h4 a i.fa-close").show();
+});
+$("#ddmomans h4 a i.fa-close").click(function(){
+$("#ddmomans h4 a i.fa-close").hide();
+$("#ddmomans ul li").slideUp();
+$("#ddmomans h4 a i.fa-chevron-down").show();
+});
+});
+
+$(document).ready(function(){
+$("#ddgift ul li").hide();
+$("#ddgift h4 a i.fa-chevron-down").click(function(){
+$("#ddgift h4 a i.fa-chevron-down").hide();
+$("#ddgift ul li").slideDown();
+$("#ddgift h4 a i.fa-close").show();
+});
+$("#ddgift h4 a i.fa-close").click(function(){
+$("#ddgift h4 a i.fa-close").hide();
+$("#ddgift ul li").slideUp();
+$("#ddgift h4 a i.fa-chevron-down").show();
+});
+});
+$(document).ready(function(){
+$("#ddsungl ul li").hide();
+$("#ddsungl h4 a i.fa-chevron-down").click(function(){
+$("#ddsungl h4 a i.fa-chevron-down").hide();
+$("#ddsungl ul li").slideDown();
+$("#ddsungl h4 a i.fa-close").show();
+});
+$("#ddsungl h4 a i.fa-close").click(function(){
+$("#ddsungl h4 a i.fa-close").hide();
+$("#ddsungl ul li").slideUp();
+$("#ddsungl h4 a i.fa-chevron-down").show();
+});
+});
+
+$(document).ready(function(){
+$("#ddhandb ul li").hide();
+$("#ddhandb h4 a i.fa-chevron-down").click(function(){
+$("#ddhandb h4 a i.fa-chevron-down").hide();
+$("#ddhandb ul li").slideDown();
+$("#ddhandb h4 a i.fa-close").show();
+});
+$("#ddhandb h4 a i.fa-close").click(function(){
+$("#ddhandb h4 a i.fa-close").hide();
+$("#ddhandb ul li").slideUp();
+$("#ddhandb h4 a i.fa-chevron-down").show();
+});
+});
+$(document).ready(function(){
+$("#ddsale ul li").hide();
+$("#ddsale h4 a i.fa-chevron-down").click(function(){
+$("#ddsale h4 a i.fa-chevron-down").hide();
+$("#ddsale ul li").slideDown();
+$("#ddsale h4 a i.fa-close").show();
+});
+$("#ddsale h4 a i.fa-close").click(function(){
+$("#ddsale h4 a i.fa-close").hide();
+$("#ddsale ul li").slideUp();
+$("#ddsale h4 a i.fa-chevron-down").show();
+});
+});
+</script>
+
+
+<script>
+$(document).ready(function(){
+$("#plus1").click(function(){
+$("#plus1").hide();
+$(".subf0111").slideDown();
+$("#minus1").show();
+});
+$("#minus1").click(function(){
+$("#minus1").hide();
+$(".subf0111").slideUp();
+$("#plus1").show();
+});
+
+$("#plus022").click(function(){
+$("#plus022").hide();
+$(".subf0222").slideDown();
+$("#minus022").show();
+});
+$("#minus022").click(function(){
+$("#minus022").hide();
+$(".subf0222").slideUp();
+$("#plus022").show();
+});
+
+$("#plus033").click(function(){
+$("#plus033").hide();
+$(".subf0333").slideDown();
+$("#minus033").show();
+});
+$("#minus033").click(function(){
+$("#minus033").hide();
+$(".subf0333").slideUp();
+$("#plus033").show();
+});
+
+$("#plus044").click(function(){
+$("#plus044").hide();
+$(".subf0444").slideDown();
+$("#minus044").show();
+});
+$("#minus044").click(function(){
+$("#minus044").hide();
+$(".subf0444").slideUp();
+$("#plus044").show();
+});
+
+$("h4.f02h42").click(function(){
+$(".subf022").slideToggle();
+});
+
+$("h4.f03h43").click(function(){
+$("ul.subf033").slideToggle();
+});
+
+$("h4.f04h44").click(function(){
+$("ul.subf044").slideToggle();
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$(".y1").click(function(){
+$(".y1").hide();
+$(".y2").show();
+$("ul.analogueli").slideDown();
+});
+$(".y2").click(function(){
+$(".y2").hide();
+$(".y1").show();
+$("ul.analogueli").slideUp();
+});
+});
+
+$(document).ready(function(){
+$(".m1").click(function(){
+$(".m1").hide();
+$(".m2").show();
+$("ul.movementli").slideDown();
+});
+$(".m2").click(function(){
+$(".m2").hide();
+$(".m1").show();
+$("ul.movementli").slideUp();
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+$(".slidedownside").click(function(){
+$(".side").slideDown();
+});
+$(".closerefine").click(function(){
+$(".side").slideUp();
+});
+});
+</script>
+
+<style>
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+
+		<div class="navline">
+	<div class="menu">
+		<a href="indexbandw.html" ><span class="menutext"><img src="logogrey02.png" alt="logo"></span></a>
+	<a href="#" class="hamburgermenua hamburgermenu-small"><span class="dropdownhamburger"><img src="hamburgermenu.svg" alt="hamburgermenu image" width="23" height="23"></span></a>
+		<a href="#"><span class="heart"><img src="heart.svg" alt="heart image" width="22" height="22"></span></a>
+		<a href="#"><span class="shoppingcart"><img src="shoppingbag.svg" alt="shoppingbag image" width="23" height="23"></span></a>
+		<a href="myaccount.html"><span class="usericon"><img src="user.svg"  alt="user image" width="25" height="25"></span></a>
+		</div>
+		<div class="searchtheproduct">
+<div class="slidesearch"><button type="button"><img src="searchpic.png" alt="search the picture"></button><input type="text" placeholder="search it"></div>
+</div>
+
+
+		<div class="dropdownmenu">
+		<p class="closex"><img src="ex.svg" alt="eximage" width="25" height="25"></p>
+		<div id="ddmens" class="subdropd">
+		<h4><a href="#"><i class="fa fa-close"></i><i class="fa fa-chevron-down"></i>mens</a></h4>
+		<ul>
+		<li><a href="#">Casio</a></li><li><a href="#">Citizen</a></li><li><a href="#">Daniel Wellington</a></li><li><a href="#">Fossil</a></li><li><a href="#">Hugo Boss</a></li><li><a href="#">Michael Kors</a></li><li><a href="#">Tissot</a></li><li><a href="#">All mens</a></li></ul>
+		<img src="manw.jpg" alt="man image"></div>
+		
+		<div id="ddmomans" class="subdropd">
+		<h4><a href="#"><i class="fa fa-close"></i><i class="fa fa-chevron-down"></i>woman's</a></h4>
+		<ul>
+		<li><a href="#">DKNY</a></li><li><a href="">Empirio Armani</a></li><li><a href="">Fossil</a></li><li><a href="">Michael Kors</a></li><li><a href="#">Olivia Burton</a></li><li><a href="#">Vivienne Westwood</a></li><li><a href="">Skagen</a></li><li><a href="">All woman's</a></li></ul>
+		<img src="womanw.jpg" alt="woman image"></div>
+		
+		<div id="ddgift" class="subdropd" >
+		<h4><a href="#"><i class="fa fa-close"></i><i class="fa fa-chevron-down"></i>gift</a></h4>
+		<ul><li><a href="#">Pens</a></li><li><a href="#">Champagne</a></li><li><a href="#">Jewellery boxes</a></li><li><a href="#">Candles</a></li><li><a href="#">Keyrings</a></li><li><a href="#">Albums</a></li><li><a href="#">Mirrors</a></li><li><a href="#">All gifts</a></li></ul>
+		<img src="giftdd.png" alt="gift image"></div>
+		
+		<div id="ddsungl" class="subdropd">
+		<h4><a href="#"><i class="fa fa-close"></i><i class="fa fa-chevron-down"></i>sunglasses</a></h4>
+		<ul><li><a href="#">Empirio Armani</a></li><li><a href="#">Ray-Ban</a></li><li><a href="#">Versace</a></li><li><a href="#">Vogue</a></li><li><a href="#">Avanglion</a></li><li><a href="#">Guess</a></li><li><a href="#">Lacoste</a></li><li><a href="#">All sunglasses</a></li></ul>
+		<img src="sunglassm.jpg" alt="sunglass image"></div>
+		
+		<div id="ddhandb" class="subdropd">
+		<h4><a href="#"><i class="fa fa-close"></i><i class="fa fa-chevron-down"></i>handbags</a></h4>
+		<ul><li><a href="#">Empirio Armani</a></li><li><a href="#">Ray-Ban</a></li><li><a href="#">Versace</a></li><li><a href="#">Vogue</a></li><li><a href="#">Avanglion</a></li><li><a href="#">Guess</a></li><li><a href="#">Lacoste</a></li><li><a href="#">All handbags</a></li></ul>
+		<img src="bagpic.jpg" alt="bag image"></div>
+		
+		<div id="ddsale" class="subdropd">
+		<h4><a href="#"><i class="fa fa-close"></i><i class="fa fa-chevron-down"></i>sale</a></h4>
+	    <ul><li><a href="#">Nino Bossi</a></li><li><a href="#">Medici</a></li><li><a href="#">Vagabond</a></li><li><a href="#">Ricardo</a></li><li><a href="#">Donna Sharp</a></li><li><a href="#">Buxton</a></li><li><a href="#">Carla Mancini</a></li><li><a href="#">All sales</a></li></ul>
+		<img src="salebg.jpg" alt="sale image" ></div>
+		</div>
+			</div>
+</nav>
+</header>
+
+<div class="container-fluid">
+<div class="my_wish_side">
+<div class="mywish">
+<div class="imagemywish product_wish">
+<img src="womanw.jpg" alt="woman image" >
+</div>
+<div class="producta product_wish">
+<h4>Casio MTP-1380L</h4>
+<table>
+<tr><td>color:</td><td><span class="productcode"  >silver</span></td></tr>
+<tr><td>price:</td><td><span class="productdate"  >£280</span></td></tr>
+
+</table>
+
+
+<div class="buttonp_and_m">
+<ul>
+<li><button type="button"  onclick="myFunction()">+</button></li>
+<li><p id="demo">1</p></li>
+<li><button type="button"  id="minusis"  onclick="myFunctions()">-</button></li>
+</ul>
+</div>
+<script>
+function  add(){
+
+return counter += 1;
+}
+var  counter = 1;
+function myFunction(){
+
+
+var addplus = document.getElementById("demo");
+
+addplus.innerHTML = add();
+
+}
+var  counter = 1;
+function remove(){
+if (counter < 1) {
+counter++;
+addminus.value = counter;
+}
+return counter -= 1;
+
+}
+
+function myFunctions(){
+
+
+
+var addminus = document.getElementById("demo");
+
+
+addminus.innerHTML = remove();
+
+}
+
+</script>
+<div class="heart_and_x">
+<span class="wish_heart"><img src="heart.svg" alt="love heart icon"></span><span class="wish_x"><img src="xicon.svg" alt="icon image"></span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="shoppingbag_total">
+<h4>Shopping bag total</h4>
+<table>
+
+<tr>
+<th>order value:</th>
+<td><span>£55.55</span></td>
+</tr>
+<tr>
+<th>delivery:</th>
+<td><span>free</span></td>
+</tr>
+<tr>
+<th>total:</th>
+<td><span>£55.55</span></td>
+</tr>
+</table>
+</div>
+
+
+</div>
+
+
+<div class="mainline03">
+<p class="line03">
+    <span>Do you need help?</span>
+</p>
+</div>
+
+<footer class="footer">
+<div class="footer11">
+<div class="sectionbox" id="f0111">
+<div class="class0111">
+<ul>
+<li class="f01h4111">Customer Care</li>
+<li id="plus1"><img src="plusicon.svg" alt="plus icon image" ></li>
+<li id="minus1"><img src="minusicon.svg" alt="minus icon image" ></li>
+</ul>
+</div>
+<ul class="subf0111">
+   <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Delivery Information</a></li>
+    <li><a href="#">Click and Collect</a></li>
+	<li><a href="#">Returns Policy</a></li>
+    <li><a href="#">Services and Repairs</a></li>
+    <li><a href="#">FAQs</a></li>
+    <li><a href="#">Gift Cards</a></li>
+	</ul>
+</div>
+<div class="sectionbox" id="f0222">
+<div class="class0222">
+<ul>
+<li class="f02h4222">About Us</li>
+<li id="plus022"><img src="plusicon.svg" alt="plus icon image" ></li>
+<li id="minus022"><img src="minusicon.svg" alt="minus icon image" ></li>
+</ul>
+</div>
+<ul class="subf0222">
+    <li><a href="#">About Black and White</a></li>
+   <li><a href="#">Store Locator</a></li>
+   <li><a href="#">Careers</a></li>
+    <li><a href="#">Cookie Policy</a></li>
+   <li><a href="#">Accessibility</a></li>
+    <li><a href="#">Terms of Use</a></li>
+  </ul>
+
+
+</div>
+<div class="sectionbox" id="f0333">
+<div class="class0333">
+<ul>
+<li class="f03h4333">Popular Brands</li>
+<li id="plus033"><img src="plusicon.svg" alt="plus icon image" ></li>
+<li id="minus033"><img src="minusicon.svg" alt="minus icon image" ></li>
+</ul>
+</div>
+<ul class="subf0333">
+    <li><a href="#">IWC Watches</a></li>
+    <li><a href="#">Cartier Watches</a></li>
+    <li><a href="#">TAG Heuer Watches</a></li>
+    <li><a href="#">Zenith Watches</a></li>
+    <li><a href="#">Breitling Watches</a></li>
+    <li><a href="#">Omega Watches</a></li>
+    <li><a href="#">Michael Kors</a></li>
+    <li><a href="#">Emporio Armani</a></li>
+    <li><a href="#">Olivia Burton</a></li>
+    <li><a href="#">Jenny Packham</a></li>
+</ul>
+
+</div>
+<div class="sectionbox" id="f0444">
+<div class="class0444">
+<ul>
+<li class="f04h4444">Buying Guides</li>
+<li id="plus044"><img src="plusicon.svg" alt="plus icon image"></li>
+<li id="minus044"><img src="minusicon.svg" alt="minus icon image"></li>
+</ul>
+</div>
+<ul class="subf0444">
+   <li><a href="#">Guides Home</a></li>
+    <li><a href="#">Watch Guide</a></li>
+    <li><a href="#">Wedding Guide</a></li>
+    <li><a href="#">Engagement Guide</a></li>
+    <li><a href="#">Ring Size Guide</a></li>
+    <li><a href="#">Gemstone Guide</a></li>
+</ul>
+
+</div>
+</div>
+</footer>
+<hr>
+<div class="widthx"><p></p></div>
+
+
+</body>
+</html>
