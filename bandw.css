@@ -962,7 +962,9 @@ color: #737373;
 .product_box h6{
 font-weight: 900;	
 }
-
+.social-network{
+	padding:40px 0;
+}
 @media screen and (min-width: 681px) and (max-width:9999px){
 	
 	
