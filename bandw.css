@@ -2775,7 +2775,13 @@ display: none;
 }
 
 @media screen and (min-width: 120px) and (max-width:440px){
-	
+.shoppingbag_total{
+width: 100%!important;
+margin: 30px 0;
+border-top: 2px solid grey!important;
+border-bottom: 2px solid grey!important;
+border:none;
+	}
 	.product_box a:hover{
 color: #000;	
 }
