@@ -4,7 +4,7 @@
 <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>watches,men watches</title>
+<title>biztonság||Web development</title>
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Great+Vibes" type="text/css" >
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cardo" type="text/css" >
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat" type="text/css" >
@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Amatic+SC" type="text/css" >
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poiret+One" type="text/css" >
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster" type="text/css" >
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway" type="text/css" >
  <link href="bandw.css" type="text/css" rel="stylesheet"/>
   <link href="bootstrap.css" rel="stylesheet">
  <script src="http://code.jquery.com/jquery-1.5.min.js" type=""></script>
@@ -338,23 +339,27 @@ $(".side").slideUp();
 <form id="signinbox" class="formsin" name="signin" action="signin.php" method="post">
 <div class="username">
 <label for="username">Username</label><br>
-<input type="text" id="username" onkeyup="ValidateUsername(document.signin.username)" name="username" data-placement="top">
+<input type="text" id="username" placeholder="*" onkeyup="ValidateUsername(document.signin.username)" name="username" data-placement="top"><div class="password-clipboard-p"><h6>i</h6><p class="required-text">required field</p>
 <p id="uusername"></p>
+</div>
 </div>
 <div class="password">
 <label for="password">Password</label><br>
-<input type="password" id="password" onkeyup="ValidatePassword(document.signin.password)" name="password" data-placement="top"><div class="password-clipboard-p"><h6>i</h6><p class="required-text">required field</p>
+<input type="password" id="password" placeholder="*" onkeyup="ValidatePassword(document.signin.password)" name="password" data-placement="top"><div class="password-clipboard-p"><h6>i</h6><p class="required-text">required field</p>
 <p id="ppassword"></p>
+</div>
 </div>
 <div class="azz">
 
-<label class="checkbox-id"><input type="checkbox" class="checbox-checkbox"><span class="checkbox-hidden-check"></span><h6 class="checkbox-hsix">remember my user ID</h6></label>
+<label class="checkbox-id"><input type="checkbox" class="checbox-checkbox">
+<span class="checkbox-hidden-check"></span>
+<h6 class="checkbox-hsix">remember my user ID</h6>
+</label>
 </div>
 <div class="button">
 <button type="button" class="sign-in">sign in</button>
 </div>
 </form>
-</div>
 </div>
 </div>
 <script>
