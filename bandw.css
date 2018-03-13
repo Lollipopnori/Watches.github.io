@@ -966,8 +966,8 @@ color:#fff;
 color: grey;	
 }
 @media screen and (min-width: 681px) and (max-width:9999px){
-.username ::-moz-placeholder,.password ::-moz-placeholder{
-	color:transparent;
+.username span,.password span{
+
 
 }
 	.labelbox:hover input  ~ .checkicon{
@@ -1883,7 +1883,7 @@ float: right;
 	left: 0;
 	color:white;
 }
-.username ::-moz-placeholder,.password ::-moz-placeholder{
+.username span,.password span{
 	display:none;
 }
 }
@@ -2040,13 +2040,8 @@ position:relative;
 display: block;
 }	
 	
-.username ::-moz-placeholder,.password ::-moz-placeholder{
-display: block;
-text-align:right;
-color:#ea202e;
-font-size: 30px;
-
-
+.username span,.password span{
+color: white;
 }
 
 .password-clipboard-p h6{
@@ -2746,7 +2741,12 @@ display: none;
 }
 
 
-
+form .username input, form .password input{
+width: 200px;
+margin-left: 50px!important;
+margin-top: 10px;
+color: grey;
+}
 }
 
 @media screen and (min-width: 120px) and (max-width:440px){
@@ -2876,14 +2876,8 @@ margin: 0 auto;
 
 }
 
-.username ::-moz-placeholder,.password ::-moz-placeholder{
-display: block;
-text-align:right;
-color:#ea202e;
-font-size: 30px;
 
 
-}	
 .password-clipboard-p h6{
 	display:none;	
 	}
@@ -3286,6 +3280,7 @@ margin: 0 0 0 0;
 margin-top: 10px;
 
 }
+
 .username input[name="username"],.password input[name="password"]{
 color:grey;
 }
