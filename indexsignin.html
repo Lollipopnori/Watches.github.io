@@ -338,14 +338,14 @@ $(".side").slideUp();
 <p>Sign in</p>
 <form id="signinbox" class="formsin" name="signin" action="signin.php" method="post">
 <div class="username">
-<label for="username">Username</label><br>
-<input type="text" id="username" placeholder="*" onkeyup="ValidateUsername(document.signin.username)" name="username" data-placement="top"><div class="password-clipboard-p"><h6>i</h6><p class="required-text">required field</p>
+<label for="username"><span>*</span>Username</label><br>
+<input type="text" id="username" onkeyup="ValidateUsername(document.signin.username)" name="username" data-placement="top"><div class="password-clipboard-p"><h6>i</h6><p class="required-text">required field</p>
 <p id="uusername"></p>
 </div>
 </div>
 <div class="password">
-<label for="password">Password</label><br>
-<input type="password" id="password" placeholder="*" onkeyup="ValidatePassword(document.signin.password)" name="password" data-placement="top"><div class="password-clipboard-p"><h6>i</h6><p class="required-text">required field</p>
+<label for="password"><span>*</span>Password</label><br>
+<input type="password" id="password" onkeyup="ValidatePassword(document.signin.password)" name="password" data-placement="top"><div class="password-clipboard-p"><h6>i</h6><p class="required-text">required field</p>
 <p id="ppassword"></p>
 </div>
 </div>
@@ -619,6 +619,7 @@ return false
     <li><a href="#">Ring Size Guide</a></li>
     <li><a href="#">Gemstone Guide</a></li>
 </ul>
+
 </div>
 </div>
 </footer>
