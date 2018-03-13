@@ -9,7 +9,6 @@ padding: 10px 0;
 }
 header{
 padding: 30px 0;
-
 }
 
 
@@ -115,13 +114,6 @@ position: absolute;
 display: block;
 
 }
-
-.labelbox:hover input  ~ .checkicon{
-background-color: #d9d9d9;
-
-}
-
-
 
 .labelbox .checkicon:after{
 left: 8px;
@@ -257,7 +249,7 @@ float:right;
 .y2,.m2,.analogueli,.movementli{
 display:none;
 }
-.priceside,.colorside{
+.priceside{
 padding: 15px 0;
 border-top: 2px solid #e6e6e6;
 }
@@ -273,6 +265,7 @@ list-style: none;
 }
 .analogueli li a,.movementli li a{
 color: #333333;
+font-weight: 600;
 }
 
 h3.analogh3,h3.movementh3{
@@ -300,9 +293,9 @@ text-align: center;
 display: inline-block;
 background: white;
 padding: 0 15px;
-font-size: 20px;
+font-size: 18px;
 font-family: "Raleway", sas-serif;
-color: #262626;
+color: #585555;
 }
 .mainline03{
 margin: 40px 0px;
@@ -387,11 +380,12 @@ width: 50px;
 
 
 .signinbox{
+
 width: 400px;
 background: #292424;
 border-radius: 5px;
 margin: 0 auto;
-padding-top:20px;
+padding:20px 0;
 margin-bottom: 15px;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -444,8 +438,8 @@ float:right;
 color:  grey;
 }
 .menu{
-
-width: 100%;
+height: 70px;
+width: 98%;
 margin: 0 auto;
 
 }
@@ -473,8 +467,9 @@ height: auto;
 width: 60%;
 margin: 0 auto;
 display: block;
-border: 16px solid #f2f2f2;
+border: 6px solid #f2f2f2;
 border-radius: 5px;
+padding: 10px;
 }
 
 .blacklthis {
@@ -493,13 +488,7 @@ margin-top:10px;
 color: black;
 
 }
-.blacklthis  a:hover{
-color: black;
-text-decoration: none;
-background:#121214;
-border-color: #121214;
-color:white;
-}
+
 .container{
 padding:50px 0;
 }
@@ -685,6 +674,7 @@ color:grey!important;
 min-height: 60px;
 
 }
+
 .footer11  ul li{
 list-style:none;
 color:white;
@@ -734,22 +724,19 @@ background-color:  black ;
 }
 
 
+
+
+.luxury-line{
+color: #d9d9d9!important;
+font-family:"IM Fell English SC",serif;
+text-align: center;
+}
 .imgb p a{
 color:white;
 text-align: center;
 border: 1px solid #fff;
 padding: 6px 25px;
 text-decoration: none;
-}
-.imgb p a:hover{
-background: #fff;
-color: #000;
-}
-
-.luxury-line{
-color: #d9d9d9!important;
-font-family:"IM Fell English SC",serif;
-text-align: center;
 }
 
 #subscribetext{
@@ -817,7 +804,6 @@ font-family: 'Open Sans', sans-serif;
 }
 .producta,.productcode{
 font-family: 'Open Sans', sans-serif;
-
 }
 .product_wish table td {
 text-align: left;
@@ -837,8 +823,6 @@ margin-bottom:0;
 .buttonp_and_m ul li{
 float: left;
 display:inline;
-
-
 }
 .buttonp_and_m ul li button{
 padding: 3px 0;
@@ -855,10 +839,8 @@ margin: 4px 15px;
 }
 .shoppingbag_total{
 border-left: 1px solid #808080;
-border-right: 1px solid #808080;
-min-height: 200px;
 float:right;
-padding-bottom: 20px ;
+
 
 }
 .shoppingbag_total h4{
@@ -872,12 +854,10 @@ margin: 0 auto;
 .shoppingbag_total table  td{
 text-align:right;
 }
-.shoppingbag_total table  th{
+.shoppingbag_total table  th,.product_wish table td{
 text-align:left;
 }
-.product_wish table td {
-text-align: left;
-}
+
 .shoppingbag_total table tr{
 height:30px;
 }
@@ -904,7 +884,9 @@ user-select:none;
 -webkit-select: none;
 -moz-user-select: none;
 -ms-select: none;
-width: 60%;
+width:75%;
+margin: 0 auto;
+
 	}
 
 	.checkbox-id input{
@@ -927,7 +909,7 @@ cursor: pointer;
 	}
 	.checkbox-id .checkbox-hidden-check:after {
 	content:"¬";
-
+color:#fff;
 	-moz-transform: rotate(130deg);
 	-ms-transform: rotate(130deg);
     transform: rotate(130deg);	
@@ -945,8 +927,8 @@ cursor: pointer;
 	
 	height: 70px;
 	margin-top: 50px;
+	
 }
-
  .password-clipboard-p {
 	cursor: pointer; 
  }
@@ -975,7 +957,39 @@ height: 50px;
 .latest-deals p{
 	color: #fff;
 }
+
+	.checkbox-hsix{
+color:#fff;
+
+}
+#sliderit p, #thisis{
+color: grey;	
+}
 @media screen and (min-width: 681px) and (max-width:9999px){
+.username ::-moz-placeholder,.password ::-moz-placeholder{
+	color:transparent;
+
+}
+	.labelbox:hover input  ~ .checkicon{
+background-color: #d9d9d9;
+
+}
+.azz h6,.azz input{
+
+	margin: 0 5px ;
+}
+
+.imgb p a:hover{
+background: #fff;
+color: #000;
+}
+	.blacklthis  a:hover{
+color: black;
+text-decoration: none;
+background:#ea202e;
+border-color: #ea202e;
+color:white;
+}
  .product_box button:hover {
  
  background:#404040;
@@ -1024,7 +1038,7 @@ width: 82%;
 
 border: none;
 margin-left: 10px;
-height: 30px;
+
 }
 
 	.aa{
@@ -1093,7 +1107,6 @@ padding-right: 30px;
 
 .producta {
 width: 70%;
-
 margin-top: -10px;
 padding-left: 20px;
 }
@@ -1164,9 +1177,7 @@ padding: 40px 0;
 bottom: 0px;
 
 }
-.imgb:hover{
 
-}
 .luxury-line{
 font-size: 40px;
 font-family:"IM Fell English SC",serif;
@@ -1245,9 +1256,7 @@ width: 25%;
 margin: 0 auto;
 display:block!important;
 }
-header{
-margin-bottom: 10px;
-}
+
 .productsmen .watches{
 width:33.333%;
 float:left;
@@ -1382,14 +1391,7 @@ bottom: 0;
 margin-top: 50px;
 
 }
-.password{
-	
-	
-}
-.username{
-	
-		
-}
+
 .username  #uusername,.password #ppassword{
 font-size: 16px !important;
 color: white!important;
@@ -1397,7 +1399,7 @@ margin-left: 50px;
 margin-bottom: 5px;
 }
 .signinbox{
-height: 450px;	
+min-height: 0px;	
 }
 .signinbox p{
 font-size: 26px;
@@ -1501,22 +1503,16 @@ border: 2px solid tomato;
 
 .mywish{
 border-top:  2px  solid #e8e2e2;
-border-bottom:  2px  solid #e8e2e2;
-
-height: 200px;
 width: 66%;
 padding:45px;
 float:left;
 }
-.shoppingbag_right_side{
 
-
-}
 .shoppingbag_total{
 
 width:30%;
 float:right;
-padding-bottom: 20px ;
+
 }
 
 .imagemywish{
@@ -1628,14 +1624,14 @@ visibility:visible;
 background:#404040;
 position:relative;
 z-index:1;
-margin-top: 40px;
 margin-bottom: 20px;
-padding-top: 20px!important;
+padding: 30px 0;
 min-height: 410px ;
 }
 .footer11 .sectionbox {
 width: 25%;
 float: left;
+
 }
 
 .subdropd{
@@ -1745,17 +1741,9 @@ min-width:285px;
 
  }
 
-
 span.myaccount{
-
 margin: 17px 20px 0 0;
-
 }
-.navline {
-margin: 5px  0 0 0;
-
-}
-
 
 .logodiv  {
 width:100%;
@@ -1895,12 +1883,41 @@ float: right;
 	left: 0;
 	color:white;
 }
-
+.username ::-moz-placeholder,.password ::-moz-placeholder{
+	display:none;
+}
 }
 @media screen and (min-width: 441px) and (max-width: 680px){
 
+.checkbox-hidden-check{
+left: 47%;
+margin-top: 20px!important;
+}
+		.checkbox-id input{
+display:none!important;
+	}
+label .checkbox-id {
+
+margin: 0 auto!important;
+}
+
+
+		.azz h6,.azz input{
+	text-align: center;
+	margin-top: 5px ;
+}
+	.blacklthis  a:hover{
+text-decoration: none;
+color:white;
+}
+.blacklthis  a{
+	background:#ea202e;
+	color:white;
+	border: none;
+}
 .product_box a:hover{
-color: #000;	
+color: #000;
+
 }
 	.columnboxes{
 width: 100%;
@@ -1920,7 +1937,7 @@ margin-bottom: 30px;
 
 	.searchtheproduct{
 	width:60%;
-height: 50px;
+
 margin: 0 auto;
 
 }
@@ -1942,19 +1959,19 @@ width: 100%;
 width: 74%;
 
 border: none;
-margin-left: 10px;
-height: 30px;
+
+
 }
 	
 	.my_wish_side {
 		width: 100%;
-	margin: 50px 0;
-	border-top:2px solid grey;
+	
+	
 	}
 	.imagemywish {
 		
 	width: 100%;
-		padding: 25px 0;
+		padding: 10px 0;
 		height: 100%;
 		margin: 0 auto;
 		
@@ -1968,51 +1985,45 @@ padding-right: 30px;
 
 }
 	.producta{
-		padding-left: 20px;
-		
-		right: 0;
+	padding-left: 20px;
+	right: 0;
 	left: 0;
-	
-	margin: 100px 0;
-				
+	margin-bottom: 60px ;
+		
 	}
 	.shoppingbag_total{
 		width: 100%!important;
-		margin: 30px 0;
 		border-top: 2px solid grey!important;
-		border-bottom: 2px solid grey!important;
 		border:none;
 	}
 	 .subdropd h4 a{
 	
 margin-left: 42px;
 }	
-.password-clipboard-p p.required-text::after{
+	.password-clipboard-p p.required-text::after{
 	position:absolute;
 	content: "";
-top: 27%;
-right: -10%;
+top: -50%;
+right: 45%;
 margin-right: -3px;
 border-width: 7px;
 border-style: solid;
 border-color: white  transparent transparent;	
-transform: rotate(270deg);
--moz-transform:rotate(270deg);
--webkit-transform:rotate(270deg);
+transform: rotate(180deg);
+-moz-transform:rotate(180deg);
+-webkit-transform:rotate(180deg);
  }
  .required-text{
 color:#000;
 position: absolute;
 border: 2px solid white;
-bottom: 20px;
-right:0;
 text-align:center;
 border-radius: 3px;
 padding: 5px;
 margin-top: -5px;
 width: 120px;
 position: absolute;
-margin-left: 20%;
+margin: 0 auto;
 }
 .password-clipboard-p{
 	height: 60px;
@@ -2029,31 +2040,18 @@ position:relative;
 display: block;
 }	
 	
-.azz {
-margin: 0 auto;
-width: 80%!important;
-padding-left: 30px;
+.username ::-moz-placeholder,.password ::-moz-placeholder{
+display: block;
+text-align:right;
+color:#ea202e;
+font-size: 30px;
 
-}
-.azz label.checkbox-hsix h6{
-top: 3px;
-
-}
-.checkbox-hidden-check{
-left: 20%;
-margin-right: 10px;
 
 }
 
-
-		.checkbox-id input{
-display:none!important;
-
+.password-clipboard-p h6{
+	display:none;	
 	}
-
-.username input[name="username"],.password input[name="password"]{
-color:grey;
-}
 #password,#username{
 width: 80%;
 }
@@ -2062,7 +2060,7 @@ text-align: center;
 font-size: 14px!important;
 }
 .signinbox {
-	height: 500px;
+
 	width: 100%;
 margin: 0 auto;
 }
@@ -2080,6 +2078,7 @@ margin: 0 auto;
 font-size: 16px;
 color: white;
 height: 120px;
+padding: 40px 0 120px 0;
 }
 .password label,.username label{
 display: block;
@@ -2102,7 +2101,7 @@ width: 100%;
 display:none;
 }
 .myaccount01{
-border: 6px solid grey;
+
 min-height: 220px;
 
 width:100%;
@@ -2122,19 +2121,9 @@ text-align: center;
 float:left;
 width:50%;
 margin-top: 10px!important;
-
-
 }
 
-.myaccount01 .my_account  span a:after{
-transition:width .5s ease, background-color .5s ease;
-content: "";
-display: block;
-margin: auto;
-height: 2px;
-width: 0px;
-background-color: grey;
-}
+
 .myaccount01 .my_account  span a:hover:after{
 background-color: white;
 width: 100%;
@@ -2144,7 +2133,8 @@ text-align: center;
 display:inline-block;
 width:150px;
 color:#262626;
-
+border: 2px solid grey;
+padding: 5px 0;
 }
 .myaccount01 .my_account  span a:hover{
 text-decoration:none;
@@ -2193,17 +2183,8 @@ width: 40%;
 
 #sliderit{
 width:50%;
-
+margin-left: 15px;
 }
-
-.mainline03{
-margin: 80px 0px;
-position:relative;
-}
-
-
-
-
 
 
 
@@ -2251,15 +2232,13 @@ float:right;
 
 .side{
 display:none;
-border: 2px solid grey;
 position: absolute;
-background: white;
 width:96%;
 margin: 0 auto;
-margin-top: 5px!important;
 background: #d9d9d9;
 left:2px;
 right:2px;
+margin-top: 5px!important;
 }
 .colorside,.priceside,.slideprice {
 width:100%;
@@ -2277,6 +2256,7 @@ margin-left: 10px;
 margin-right: 10px;
 }
 .closerefine{
+
 float: right;
 margin:10px;
 font-size: 20px;
@@ -2284,19 +2264,14 @@ color: #fff;
 border: 2px solid #fff;
 border-radius: 3px;
 padding: 2px 6px;
+display:non;
 }
-.closerefine:hover{
-background: #bfbfbf;
-}
- .colorside input ,label{
+.colorside input ,label{
 display: block;
-top:0;
+
 }
 .footer{
 background:white;
-
-	
-	
 }
 .mainside,.movement{
 width:50%;
@@ -2775,19 +2750,33 @@ display: none;
 }
 
 @media screen and (min-width: 120px) and (max-width:440px){
-.shoppingbag_total{
-width: 100%!important;
-margin: 30px 0;
-border-top: 2px solid grey!important;
-border-bottom: 2px solid grey!important;
-border:none;
+.azz h6,.azz input{
+	text-align: center;
+	margin-top: 5px ;
+}
+	
+		.blacklthis  a:hover{
+text-decoration: none;
+color:white;
+}
+.blacklthis  a{
+	background:#ea202e;
+	color:white;
+	border: none;
+}
+	
+		.shoppingbag_total{
+		width: 100%!important;
+		margin: 20px 0;
+		border-top: 2px solid grey!important;
+		border:none;
 	}
 	.product_box a:hover{
 color: #000;	
 }
 	.advp {
 	padding: 0 6px!important;	
-	box
+	
 	}
 
 	.columnboxes{
@@ -2829,19 +2818,16 @@ margin-right: 20px;
 	float: right;
 	z-index: 1;
 	}
-		.producta table tr td{
+	.producta table tr td{
 padding-right: 30px;
 
 }
 	.wish_heart ,.wish_x {
 
-float: right;
 
 width: 30px;
 	}
-	.wish_heart img ,.wish_x img {
-		float: right;
-	}
+
 	.alldob h4{
 text-align:center;
 color: white;
@@ -2872,7 +2858,6 @@ transform: rotate(180deg);
 color:#000;
 position: absolute;
 border: 2px solid white;
-
 text-align:center;
 border-radius: 3px;
 padding: 5px;
@@ -2886,25 +2871,22 @@ margin: 0 auto;
 	height: 80px;
 }
  .password-clipboard-p p.required-text {
-display: none;
-font-size: 12px;
-display:absolute;
+
+	display:none;
+
 }
 
- .password-clipboard-p :hover + .required-text  {
-
-position:relative;
+.username ::-moz-placeholder,.password ::-moz-placeholder{
 display: block;
+text-align:right;
+color:#ea202e;
+font-size: 30px;
+
+
 }	
 .password-clipboard-p h6{
-	text-align:center;	
+	display:none;	
 	}
-	.azz {
-margin: 0 auto;
-width: 100%!important;
-
-
-}
 
 .checkbox-hidden-check{
 left: 45%;
@@ -2939,7 +2921,7 @@ width: 100%;
 display:none;
 }
 .myaccount01{
-border: 6px solid grey;
+
 min-height: 385px;
 
 width:100%;
@@ -2958,31 +2940,19 @@ list-style:none;
 text-align: center;
 float:left;
 width:100%;
-margin-top: 10px!important;
-
-
 }
 
-.myaccount01 .my_account  span a:after{
-transition:width .5s ease, background-color .5s ease;
-content: "";
-display: block;
-margin: auto;
-height: 2px;
-width: 0px;
-background-color: grey;
-}
-.myaccount01 .my_account  span a:hover:after{
-background-color: white;
-width: 100%;
-}
-.myaccount01 .myaccount span a{
+
+
+.myaccount01 .my_account span a{
 text-align: center;
 display:inline-block;
 width:150px;
 color:#262626;
-
+border: 2px solid grey;
+padding: 5px 0;
 }
+
 .myaccount01 .my_account span a:hover{
 text-decoration:none;
 }
@@ -2992,6 +2962,8 @@ left: 0;
 }
 .main_myaccount{
 margin-top:30px;
+padding-top: 30px;
+border-radius: 3px;
 }
 .blackl{
 margin-top: 50px;
@@ -3042,6 +3014,9 @@ display:block;
 .watches {
 	margin-top: 30px;
 }
+.colorside{
+margin-top: 60px;	
+}
 .colorside h4,.priceside h4,.analogh3,.movementh3 {
 margin-left: 10px;
 }
@@ -3057,17 +3032,16 @@ border: 2px solid #fff;
 border-radius: 3px;
 padding: 2px 6px;
 }
-.closerefine:hover{
-background: #bfbfbf;
-}
+
 .side{
 margin-top: 5px!important;
 display:none;
 position: absolute;
-background: #737373;
+background: #d9d9d9;
 margin:0 auto;
 left:2px;
 right:2px;
+
 }
 .slidedownside{
 width:80%;
@@ -3075,6 +3049,7 @@ margin: 0 auto;
 display:block;
 border: 3px solid grey;
 border-radius: 4px;
+margin-top: -15px;
 }
 
 .slidedownside h5{
@@ -3185,9 +3160,7 @@ height:50px;
 width: 50px;
 height: 50px;
 }
-.menu{
-margin: 5px 0 15px 0;
-}
+
 #bd,#bm,#byy{
 	padding:5px 0;
 }
@@ -3240,18 +3213,21 @@ margin: 0 10px;
 .dropdownhamburger ,.home ,.heart ,.shoppingcart ,.usericon {
 vertical-align: middle;
 }
-.menu{
-width: 98%;
-height: 50px;
-}
+
 .menu a span {
 width: 20%;
 text-align:center;
 display: inline;
 margin:0 auto;
-float:left;
-}
 
+}
+.heart,.shoppingcart,.usericon{
+	float: right;
+}
+.menutext,.dropdownhamburger{
+	float: left;
+
+}
 .logodiv  {
 width:98%;
 margin: 0 auto;
@@ -3316,14 +3292,7 @@ color:grey;
 #password,#username{
 width: 80%;
 }
-#uusername,#ppassword{
-text-align: center;
-font-size: 14px!important;
-}
-.signinbox{
-	min-height: 520px;
-	
-}
+
 .signinbox p{
 text-align: center;
 font-size: 26px;
@@ -3338,6 +3307,7 @@ margin: 0 auto;
 font-size: 16px;
 color: white;
 height: 120px;
+padding: 40px 0 120px 0;
 }
 .password label,.username label{
 display: block;
@@ -3353,6 +3323,7 @@ width: 50%;
 .signinbox{
 width: 100%;
 margin: 0 auto;
+
 }
 
 .f01h4111,.f02h4222,.f03h4333,.f04h4444{
@@ -3363,16 +3334,11 @@ font-weight: bold;
 li #plus1{
 
 padding-left:300px;
-
 }
-
 
 #minus1,#minus022,#minus033,#minus044 {
 display:none;
-
-
 }
-
 
 #minus ,#minus02,#minus03,#minus04{
 display:none;
@@ -3495,5 +3461,6 @@ display: block;
 margin: 0 auto;
 width: 50%;
 }
-}
 
+
+}
